@@ -1,8 +1,10 @@
 $(function () {
 	
 	var cnt = 1;
-	
+	var url = window.location.pathname;
+
 	$('#btn-d').click(function(){
+		alert(url);
 		if(cnt == 3){
 			cnt = 1;
 		}else{
