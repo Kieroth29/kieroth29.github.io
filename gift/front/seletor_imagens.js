@@ -4,7 +4,7 @@ $(function () {
 	var url = window.location.pathname;
 
 	switch(url){
-		case "gift/front/baiadosancho.html":
+		case "/gift/front/baiadosancho.html":
 			$('#btn-d').click(function(){
 				if(cnt == 3){
 					cnt = 1;
@@ -44,7 +44,7 @@ $(function () {
 			});
 			break;
 
-		case "gift/front/carneiros.html":
+		case "/gift/front/carneiros.html":
 			$('#btn-d').click(function(){
 				if(cnt == 3){
 					cnt = 1;
