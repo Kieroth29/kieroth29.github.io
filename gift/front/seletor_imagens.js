@@ -99,7 +99,7 @@ $(function () {
 					$('#dsp-img').attr('src','imgs/bp2.jpg');
 					break;
 				case 3:
-					$('#dsp-img').attr('src','imgs/bp3.jpg');
+					$('#dsp-img').attr('src','imgs/bp3.png');
 					break;
 			}
 			});
