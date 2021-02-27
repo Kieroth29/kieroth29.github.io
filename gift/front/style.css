@@ -132,3 +132,12 @@ button{
 	width: 550px;
 	height: 370px;
 }
+#bp-bg{
+	background: url("imgs/bp-bg.jpg");
+	background-color: cyan;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	height: 860px;	
+}

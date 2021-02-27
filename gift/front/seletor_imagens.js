@@ -84,6 +84,45 @@ $(function () {
 			});
 			break;
 
+		case "/gift/front/boipeba.html":
+			$('#btn-d').click(function(){
+				if(cnt == 3){
+					cnt = 1;
+				}else{
+					cnt++;
+				}
+				switch(cnt){
+				case 1:
+					$('#dsp-img').attr('src','imgs/bp1.jpg');
+					break;
+				case 2:
+					$('#dsp-img').attr('src','imgs/bp2.jpg');
+					break;
+				case 3:
+					$('#dsp-img').attr('src','imgs/bp3.jpg');
+					break;
+			}
+			});
+
+			$('#btn-e').click(function(){
+				if(cnt == 1){
+					cnt = 3;
+				}else{
+					cnt--;
+				}
+				switch(cnt){
+				case 1:
+					$('#dsp-img').attr('src','imgs/bp1.jpg');
+					break;
+				case 2:
+					$('#dsp-img').attr('src','imgs/bp2.jpg');
+					break;
+				case 3:
+					$('#dsp-img').attr('src','imgs/bp3.jpg');
+					break;
+			}
+			});
+			break;
 
 	}
 	
