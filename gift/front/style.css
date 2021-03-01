@@ -152,3 +152,21 @@ h1{
 	color: #ff0;
 	text-shadow: 1px 1px 3px #000; 
 }
+oql-bg{
+	background: url("imgs/bg.jpg");
+	background-color: cyan;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	height: 800px;
+}
+.texto{
+	position: relative;
+	top: 150px;
+	left: 75px;
+}
+ul{
+	color: #ff0;
+	text-shadow: 4px 4px 8px #000;
+}
