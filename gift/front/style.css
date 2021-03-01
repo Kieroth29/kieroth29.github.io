@@ -3,6 +3,10 @@ body{
 	font-family: Georgia;
 	color: #333;
 }
+.bg{
+	max-width: 100%;
+	margin: auto;
+}
 #index-bg{
 	background: url("imgs/bg.jpg");
 	background-color: cyan;
@@ -14,7 +18,7 @@ body{
 }
 .barra-topo{
 	position: absolute;
-	top: 25px;
+	top: 75px;
 	left: 75px;
 }
 .dropdown1{
@@ -109,6 +113,8 @@ button{
 	position: relative;
 	top: 150px;
 	left: 100px;
+	width: 850px;
+	height: 370px;
 }
 .btn-e{
 	position: relative;
@@ -164,6 +170,7 @@ h1{
 	position: relative;
 	top: 120px;
 	left: 75px;
+	width: 600px;
 }
 ul{
 	color: #ff0;
@@ -177,4 +184,7 @@ ul{
 	background-size: cover;
 	position: relative;
 	height: 1000px;
+}
+.gal-txt{
+	width: 500px;
 }
