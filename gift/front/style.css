@@ -107,7 +107,7 @@ button{
 }
 .galeria{
 	position: relative;
-	top: 250px;
+	top: 150px;
 	left: 100px;
 }
 .btn-e{
@@ -116,7 +116,6 @@ button{
 }
 .btn-d{
 	position: relative;
-	/*top: 185px;*/
 	left: 300px;
 }
 #pc-bg{
@@ -169,4 +168,13 @@ h1{
 ul{
 	color: #ff0;
 	text-shadow: 4px 4px 8px #000;
+}
+#re-bg{
+	background: url("imgs/bg.jpg");
+	background-color: cyan;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	height: 1000px;
 }
