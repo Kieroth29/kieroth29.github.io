@@ -152,7 +152,7 @@ h1{
 	color: #ff0;
 	text-shadow: 1px 1px 3px #000; 
 }
-oql-bg{
+#oql-bg{
 	background: url("imgs/bg.jpg");
 	background-color: cyan;
 	background-repeat: no-repeat;
