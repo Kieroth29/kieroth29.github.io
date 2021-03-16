@@ -120,6 +120,10 @@ button{
 	width: auto;
 	height: auto;
 }
+#dsp-img{
+	width: 550px;
+	height: 370px;
+}
 h5{
 	margin-bottom: 0;
 	margin-top: 0;
