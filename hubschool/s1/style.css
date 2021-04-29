@@ -1,0 +1,83 @@
+/*
+UCL
+#0E1E5B | #091442 | #3562A6 | #6594C0 | #0B0B0B
+*/
+body{
+    background-color: #091442;
+    font-family: "Arial";
+    color: white;
+}
+
+header{
+    background-color: #6594C0;
+    padding: 20px 0;
+}
+
+.caixa{
+    width: 1200px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.logo{
+    width: 200px;
+}
+
+nav{
+    position: absolute;
+    top: 40%;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin-right: 20px;
+    font-family: 'Handlee', cursive;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #FFF;
+    text-transform: uppercase;
+}
+
+nav a:hover{
+    color: #0B0B0B;
+}
+
+a{
+    text-decoration: none;
+    color: #3562A6;
+}
+
+a:hover{
+    color: #FFF;
+}
+
+table{
+    width: 50%;
+    padding: 20px;
+    border: 1px solid #FFF;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+table tr:nth-child(even){
+    background-color: #6594C0;
+}
+
+table td, th{
+    border: 1px solid #ddd;
+    padding: 4px;
+}
+
+table th{
+    background-color: #3562A6;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+table td:hover{
+    background-color: #0B0B0B;
+}
