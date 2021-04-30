@@ -81,3 +81,8 @@ table th{
 table td:hover{
     background-color: #0B0B0B;
 }
+
+footer{
+    text-align: center;
+    background: url(https://img.freepik.com/fotos-gratis/plano-de-fundo-texturizado-preto_24972-764.jpg?size=626&ext=jpg); 
+}
