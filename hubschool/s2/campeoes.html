@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UEFA Champions League|Campeões</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="caixa">
+            <img src="imgs/logo.png" alt="Logo da UEFA Champions League" class="logo">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+
+                    </li>
+                    <li>
+                        <a href="campeoes.html">Clubes campeões da competição</a>
+                    </li>
+                    <li>
+                        <a href="artilheiros.html">Maiores artilheiros</a>
+                    </li>
+                </ul>    
+            </nav>
+        </div>
+    </header>
+
+    <h2>Campeões da competição</h2>
+    <table>
+        <tr>
+            <th>Time</th>
+            <th>Títulos</th>
+        </tr>
+
+        <tr>
+            <td>Real Madrid</td>
+            <td>
+                <button type="button" class="btn btn-primary time" data-toggle="modal" data-target="#titulosModal" 
+                data-equipe="Real Madrid"
+                data-escudo="https://img.uefa.com/imgml/TP/teams/logos/70x70/50051.png"
+                data-anos="1955–56, 1956–57, 1957–58, 1958–59, 1959–60, 1965–66, 1997–98, 1999–00, 2001–02, 2013–14, 2015–16, 2016–17 e 2017–18">
+                    13
+                </button>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Milan</td>
+            <td>
+                <button type="button" class="btn btn-primary time" data-toggle="modal" data-target="#titulosModal" 
+                data-equipe="Milan"
+                data-escudo="https://img.uefa.com/imgml/TP/teams/logos/70x70/50058.png"
+                data-anos="1962–63, 1968–69, 1988–89, 1989–90, 1993–94, 2002–03 e 2006–07">
+                    7
+                </button>  
+            </td>
+        </tr>
+
+        <tr>
+            <td>Liverpool</td>
+            <td>
+                <button type="button" class="btn btn-primary time" data-toggle="modal" data-target="#titulosModal" 
+                data-equipe="Liverpool"
+                data-escudo="https://img.uefa.com/imgml/TP/teams/logos/70x70/7889.png"
+                data-anos="1976–77, 1977–78, 1980–81, 1983–84, 2004–05 e 2018–19">
+                    6
+                </button>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Bayern</td>
+            <td>
+                <button type="button" class="btn btn-primary time" data-toggle="modal" data-target="#titulosModal" 
+                data-equipe="Bayern"
+                data-escudo="https://img.uefa.com/imgml/TP/teams/logos/70x70/50037.png"
+                data-anos="1973–74, 1974–75, 1975–76, 2000–01, 2012–13 e 2019–20">
+                    6
+                </button>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Barcelona</td>
+            <td>
+                <button type="button" class="btn btn-primary time" data-toggle="modal" data-target="#titulosModal" 
+                data-equipe="Barcelona"
+                data-escudo="https://img.uefa.com/imgml/TP/teams/logos/70x70/50080.png"
+                data-anos="1991–92, 2005–06, 2008–09, 2010–11 e 2014–15">
+                    5
+                </button>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Ajax</td>
+            <td>
+                <button type="button" class="btn btn-primary time" data-toggle="modal" data-target="#titulosModal" 
+                data-equipe="Ajax"
+                data-escudo="https://img.uefa.com/imgml/TP/teams/logos/70x70/50143.png"
+                data-anos="1970–71, 1971–72, 1972–73 e 1994–95">
+                    4
+                </button>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Manchester United</td>
+            <td>
+                <button type="button" class="btn btn-primary time" data-toggle="modal" data-target="#titulosModal" 
+                data-equipe="Manchester United"
+                data-escudo="https://img.uefa.com/imgml/TP/teams/logos/70x70/52682.png"
+                data-anos="1967–68, 1998–99 e 2007–08">
+                    3
+                </button>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Internazionale</td>
+            <td>
+                <button type="button" class="btn btn-primary time" data-toggle="modal" data-target="#titulosModal" 
+                data-equipe="Internazionale"
+                data-escudo="https://img.uefa.com/imgml/TP/teams/logos/70x70/50138.png"
+                data-anos="1963–64, 1964–65 e 2009–10">
+                    3
+                </button>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Juventus</td>
+            <td>
+                <button type="button" class="btn btn-primary time" data-toggle="modal" data-target="#titulosModal" 
+                data-equipe="Juventus"
+                data-escudo="https://img.uefa.com/imgml/TP/teams/logos/70x70/50139.png"
+                data-anos="1984–85 e 1995–96">
+                    2
+                </button>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Porto</td>
+            <td>
+                <button type="button" class="btn btn-primary time" data-toggle="modal" data-target="#titulosModal" 
+                data-equipe="Porto"
+                data-escudo="https://img.uefa.com/imgml/TP/teams/logos/70x70/50064.png"
+                data-anos="1986–87 e 2003–04">
+                    2
+                </button>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Benfica</td>
+            <td>
+                <button type="button" class="btn btn-primary time" data-toggle="modal" data-target="#titulosModal" 
+                data-equipe="Benfica"
+                data-escudo="https://img.uefa.com/imgml/TP/teams/logos/70x70/50147.png"
+                data-anos="1960–61 e 1961–62">
+                    2
+                </button>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Nottingham Forest</td>
+            <td>
+                <button type="button" class="btn btn-primary time" data-toggle="modal" data-target="#titulosModal" 
+                data-equipe="Nottingham Forest"
+                data-escudo="https://img.uefa.com/imgml/TP/teams/logos/70x70/52681.png"
+                data-anos="1978–79 e 1979–80">
+                    2
+                </button>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Hamburgo</td>
+            <td>
+                <button type="button" class="btn btn-primary time" data-toggle="modal" data-target="#titulosModal" 
+                data-equipe="Hamburgo"
+                data-escudo="https://img.uefa.com/imgml/TP/teams/logos/70x70/52167.png"
+                data-anos="1982–83">
+                    1
+                </button>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Aston Villa</td>
+            <td>
+                <button type="button" class="btn btn-primary time" data-toggle="modal" data-target="#titulosModal" 
+                data-equipe="Aston Villa"
+                data-escudo="https://img.uefa.com/imgml/TP/teams/logos/70x70/52683.png"
+                data-anos="1981–82">
+                    1
+                </button>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Olympique Marseille</td>
+            <td>
+                <button type="button" class="btn btn-primary time" data-toggle="modal" data-target="#titulosModal" 
+                data-equipe="Olympique Marseille"
+                data-escudo="https://img.uefa.com/imgml/TP/teams/logos/70x70/52748.png"
+                data-anos="1992–93">
+                    1
+                </button>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Feyenoord</td>
+            <td>
+                <button type="button" class="btn btn-primary time" data-toggle="modal" data-target="#titulosModal" 
+                data-equipe="Feyenoord"
+                data-escudo="https://img.uefa.com/imgml/TP/teams/logos/70x70/52749.png"
+                data-anos="1969–70">
+                    1
+                </button>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Borussia Dortmund</td>
+            <td>
+                <button type="button" class="btn btn-primary time" data-toggle="modal" data-target="#titulosModal" 
+                data-equipe="Borussia Dortmund"
+                data-escudo="https://img.uefa.com/imgml/TP/teams/logos/70x70/52758.png"
+                data-anos="1996–97">
+                    1
+                </button>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Chelsea</td>
+            <td>
+                <button type="button" class="btn btn-primary time" data-toggle="modal" data-target="#titulosModal" 
+                data-equipe="Chelsea"
+                data-escudo="https://img.uefa.com/imgml/TP/teams/logos/70x70/52914.png"
+                data-anos="2011-12">
+                    1
+                </button>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Steaua Bucaresti</td>
+            <td>
+                <button type="button" class="btn btn-primary time" data-toggle="modal" data-target="#titulosModal" 
+                data-equipe="Steaua Bucaresti"
+                data-escudo="https://img.uefa.com/imgml/TP/teams/logos/70x70/50065.png"
+                data-anos="1985–86">
+                    1
+                </button>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Crvena Zvezda</td>
+            <td>
+                <button type="button" class="btn btn-primary time" data-toggle="modal" data-target="#titulosModal" 
+                data-equipe="Crvena Zvezda"
+                data-escudo="https://img.uefa.com/imgml/TP/teams/logos/70x70/50069.png"
+                data-anos="1990–91">
+                    1
+                </button>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Celtic</td>
+            <td>
+                <button type="button" class="btn btn-primary time" data-toggle="modal" data-target="#titulosModal" 
+                data-equipe="Celtic"
+                data-escudo="https://img.uefa.com/imgml/TP/teams/logos/70x70/50050.png"
+                data-anos="1966–67">
+                    1
+                </button>
+            </td>
+        </tr>
+
+        <tr>
+            <td>PSV</td>
+            <td>
+                <button type="button" class="btn btn-primary time" data-toggle="modal" data-target="#titulosModal" 
+                data-equipe="PSV"
+                data-escudo="https://img.uefa.com/imgml/TP/teams/logos/70x70/50062.png"
+                data-anos="1987-88">
+                    1
+                </button>
+            </td>
+        </tr>
+    </table>
+
+    <div class="modal fade" id="titulosModal" tabindex="-1" role="dialog" aria-labelledby="titulosModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <img src="" alt="" id="escudoTime">
+                    <h5 class="modal-title" id="titulosModalLabel"></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                
+                <div class="modal-body">
+                    
+                    <p id="titulosTime"></p>
+                </div>
+
+                <div class="modal-footer">
+                    
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
+    <script type="text/javascript">
+        $('.time').on('click',function(){
+            var time = $(this).attr('data-equipe');
+            var escudo = $(this).attr('data-escudo');
+            var anos = $(this).attr('data-anos');
+            console.log(time);
+
+            $("#titulosModal").modal('toggle');
+
+            $("#titulosModalLabel").text(time);
+            $("#titulosModalLabel").attr('style','color: black;');
+
+            $("#escudoTime").attr("src",escudo);
+
+            $("#titulosTime").text(anos);
+            $("#titulosTime").attr('style','color: black;');
+        });
+        
+        
+    </script>
+
+    <footer>
+        <img src="imgs/uefa_logo.png">
+        <p>&copy;Copyright UEFA - 2021</p>
+    </footer>
+    
+</body>
+
+</html>
